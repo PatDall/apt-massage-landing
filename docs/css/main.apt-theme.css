@@ -3162,14 +3162,14 @@
    }
    .logo-align--center .site-header__logo {
     text-align:center;
-    margin:0 auto
+    margin:0 auto;
    }
-   @media only screen and (max-width: 749px) {
+   /* @media only screen and (max-width: 749px) {
     .logo-align--center .site-header__logo {
      text-align:left;
      margin:15px 0
     }
-   }
+   } */
    .site-header__logo-link {
     display:inline-block;
     word-break:break-word
@@ -3188,11 +3188,11 @@
    .site-header__logo-image--centered img {
     margin:0 auto
    }
-   @media only screen and (min-width: 750px) {
+   /* @media only screen and (min-width: 750px) {
     .logo-align--center .site-header__logo-link {
      margin:0 auto
     }
-   }
+   } */
    @media only screen and (max-width: 749px) {
     .site-header__icons .btn--link,.site-header__icons .site-header__cart {
      font-size:1em
@@ -3314,9 +3314,9 @@
     .site-header__logo {
      text-align:left
     }
-    .site-header__logo img {
+    /* .site-header__logo img {
      margin:0
-    }
+    } */
    }
    .article--listing {
     padding-top:55px;
