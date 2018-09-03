@@ -104,7 +104,7 @@ header menu {
 }
 
 .nav-link:hover {
-    color: rgb(56, 168, 233);
+    color: rgb(38, 172, 161);
 }
 
 .btn-book-now-container {
@@ -240,6 +240,14 @@ Panels
 }
 
 /*****************
+Bottom Navigation
+*/
+
+.bottom-nav {
+    color: #000000;
+}
+
+/*****************
 Social Icons 
 */
 
@@ -290,15 +298,11 @@ footer {
 }
 
 footer ul {
+    color: #000000;
     padding: 0 0;
     margin: 0 0;
 }
 
-footer .contact-info {
-    text-align:center;
-    line-height:0.5;
-    margin-bottom:2em;
-}
 @media only screen and (min-width: 576px) {
     footer .contact-info {
         text-align:left;
