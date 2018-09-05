@@ -139,23 +139,23 @@ Carousel
     padding: 0 60px;
     background-color: #f8f6f6;
 }
-.carousel .item {
+.carousel-inner {
 	color: rgb(39, 39, 39);
 	font-size: 12px;
-    text-align: center;
+        text-align: center;
 	overflow: hidden;
-    height: 500px;
+	height: 500px;	
 }
 
 @media only screen and (min-width: 992px) {
-    .carousel .item {
+    .carousel-inner {
         font-size: 16px;
         height: 450px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .carousel .item {
+    .carousel-inner {
         font-size: 18px;
         height: 400px;
     }
