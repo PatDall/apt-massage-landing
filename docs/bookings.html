@@ -156,28 +156,12 @@
       <h1 class="text-center">Book Your Massage</h1>
     </section>
 
-    <!-- Mindbody iFrame -->
-    <div id="myiFrame" class="page-width"></div>
-    <script>
-      // <![CDATA[
-      var linker;
+   <!-- Mindbody -->
+   <div class="page-width">
+    <script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
 
-      function addiFrame(divId, url, opt_hash) {
-        return function (tracker) {
-          window.linker = window.linker || new window.gaplugins.Linker(tracker);
-          var iFrame = document.createElement('iFrame');
-          iFrame.src = window.linker.decorate(url, opt_hash);
-          iFrame.frameBorder = 0;
-          iFrame.scrolling = 'auto';
-          iFrame.width = '100%';
-          iFrame.height = '1000';
-          document.getElementById(divId).appendChild(iFrame);
-        };
-      }
-      // Dynamically add the iFrame to the page with proper linker parameters.
-      ga(addiFrame('myiFrame', 'https://clients.mindbodyonline.com/classic/ws?studioid=830491&stype=-9&sTG=2&sView=week&sLoc=0'));
-         // ]]>
-    </script>
+    <healcode-widget data-type="appointments" data-widget-partner="object" data-widget-id="e048944771f" data-widget-version="0" ></healcode-widget>
+  </div>
 
   </main>
 
